@@ -1,0 +1,1915 @@
+Build a Modern, Professional Project and Task Management SaaS Application
+
+Act as a senior full-stack developer, SaaS product architect, database engineer, and expert UI/UX designer.
+
+I want you to design and develop a modern, professional, responsive, and fully functional project and task management web application called Trellas, inspired by the best features and user experiences of Trello, Linear, Asana, Monday.com, and ClickUp.
+
+The application should help individuals, freelancers, businesses, and teams organize projects, manage tasks, collaborate with team members, monitor progress, meet deadlines, and improve productivity through one centralized workspace.
+
+The final product should look and feel like a polished, commercially viable SaaS platform rather than a basic task management application or a static dashboard template.
+
+1. PRODUCT VISION AND OBJECTIVES
+
+Trellas should provide users with a centralized platform where they can:
+
+Create and manage multiple projects.
+
+Organize projects into workspaces.
+
+Create, assign, and manage tasks.
+
+Track task progress and completion.
+
+Collaborate with team members.
+
+Set priorities and deadlines.
+
+Manage project schedules.
+
+Monitor team productivity.
+
+Share files and project resources.
+
+Communicate through task comments and discussions.
+
+Visualize project progress through different views.
+
+Manage personal and team workloads.
+
+Receive notifications about important activities.
+
+The application must support both individual productivity and collaborative team project management.
+
+The interface should be intuitive enough for beginners while providing sufficient functionality for professional teams.
+
+2. DESIGN DIRECTION AND UI/UX REQUIREMENTS
+
+Create a premium, modern SaaS interface with a clean, minimal, professional, and highly organized appearance.
+
+Use Trello, Linear, and Asana as design inspiration, but develop an original Trellas visual identity.
+
+Design characteristics
+
+Modern SaaS dashboard aesthetics.
+
+Clean layouts with excellent visual hierarchy.
+
+Professional typography.
+
+Consistent spacing and alignment.
+
+Subtle borders and shadows.
+
+Well-designed cards and panels.
+
+Beautiful icons and visual indicators.
+
+Smooth transitions and micro-interactions.
+
+Clear buttons and intuitive navigation.
+
+Attractive charts and data visualizations.
+
+Carefully designed empty states.
+
+Consistent colors for task priorities and statuses.
+
+Avoid unnecessary visual clutter, excessive gradients, oversized elements, and complicated navigation.
+
+Suggested visual identity
+
+Use a sophisticated neutral interface with:
+
+Primary color: Deep indigo or modern blue.
+
+Secondary color: Soft blue.
+
+Accent color: Violet.
+
+Background: Light grey or off-white.
+
+Cards: White.
+
+Text: Dark charcoal.
+
+Secondary text: Muted grey.
+
+Success: Green.
+
+Warning: Amber.
+
+Error: Red.
+
+Provide a consistent design system across the entire application.
+
+Layout structure
+
+The desktop application should have:
+
+A collapsible left sidebar for navigation.
+
+A top navigation bar.
+
+A central content area.
+
+Contextual action buttons.
+
+Optional right-side panels for task details, activity, or additional information.
+
+The interface must adapt beautifully to desktop, tablet, and mobile devices.
+
+3. APPLICATION STRUCTURE AND NAVIGATION
+
+Create the following main navigation structure.
+
+A. Main Sidebar
+
+Include:
+
+Dashboard
+
+My Tasks
+
+Inbox
+
+Projects
+
+Boards
+
+Calendar
+
+Timeline
+
+Team
+
+Reports and Analytics
+
+Files
+
+Templates
+
+Trash
+
+Settings
+
+B. Workspace Section
+
+Display:
+
+Current workspace name.
+
+Workspace logo or avatar.
+
+Workspace switcher.
+
+List of available workspaces.
+
+Create workspace option.
+
+Workspace settings.
+
+C. Projects Section
+
+Display recently accessed and pinned projects.
+
+Each project should display its name, icon or color, and progress indicator.
+
+Include a button to create a new project.
+
+D. Sidebar Functionality
+
+Allow users to:
+
+Collapse and expand the sidebar.
+
+Pin frequently accessed pages.
+
+Switch between workspaces.
+
+Navigate between projects.
+
+Create new projects.
+
+Access personal settings.
+
+View notification indicators.
+
+4. AUTHENTICATION AND USER ACCOUNTS
+
+Implement a complete user authentication system.
+
+Include:
+
+Registration
+
+Full name.
+
+Email address.
+
+Password.
+
+Confirm password.
+
+Terms and conditions acceptance.
+
+Login
+
+Email address.
+
+Password.
+
+Remember me.
+
+Forgot password.
+
+Show/hide password.
+
+Login validation.
+
+Additional Authentication Features
+
+Email verification.
+
+Password reset.
+
+Secure session management.
+
+Logout.
+
+Profile management.
+
+User Profile
+
+Every user should have a personal profile containing:
+
+Profile picture.
+
+Full name.
+
+Email address.
+
+Job title.
+
+Department.
+
+Short biography.
+
+Time zone.
+
+Account preferences.
+
+5. MAIN DASHBOARD
+
+Create a beautiful and informative dashboard that provides an overview of the user's projects, tasks, activities, and productivity.
+
+Dashboard Welcome Section
+
+Display:
+
+Personalized greeting.
+
+Current date.
+
+Short productivity message.
+
+Quick action buttons.
+
+Dashboard Statistics
+
+Create summary cards displaying:
+
+Total Projects.
+
+Active Projects.
+
+Total Tasks.
+
+Completed Tasks.
+
+Pending Tasks.
+
+Overdue Tasks.
+
+Each card should contain a relevant icon, numerical value, and optional comparison with the previous period.
+
+My Tasks Overview
+
+Display tasks grouped by:
+
+Today.
+
+Upcoming.
+
+Overdue.
+
+Completed.
+
+Each task should show:
+
+Task title.
+
+Project name.
+
+Priority.
+
+Due date.
+
+Assigned users.
+
+Status.
+
+Project Progress
+
+Display active projects using progress bars or circular progress indicators.
+
+Include:
+
+Project name.
+
+Project manager.
+
+Completion percentage.
+
+Task completion status.
+
+Deadline.
+
+Productivity Charts
+
+Include:
+
+Tasks completed over time.
+
+Task distribution by status.
+
+Projects by progress.
+
+Workload by team member.
+
+Recent Activity
+
+Display recent workspace activities, including:
+
+New projects created.
+
+Tasks created.
+
+Tasks completed.
+
+Team members added.
+
+Comments posted.
+
+Deadlines updated.
+
+6. WORKSPACE MANAGEMENT
+
+Allow users to create and manage multiple workspaces.
+
+Each workspace should have:
+
+Workspace name.
+
+Workspace description.
+
+Workspace logo or avatar.
+
+Workspace owner.
+
+Members.
+
+Projects.
+
+Workspace settings.
+
+Workspace Features
+
+Create workspace.
+
+Edit workspace.
+
+Delete workspace.
+
+Invite members.
+
+Remove members.
+
+Assign workspace roles.
+
+Manage workspace permissions.
+
+Switch between workspaces.
+
+Workspace data must remain properly separated.
+
+7. PROJECT MANAGEMENT
+
+Create a comprehensive project management system.
+
+Create Project
+
+When creating a project, collect:
+
+Project name.
+
+Project description.
+
+Project cover or color.
+
+Project owner.
+
+Project manager.
+
+Start date.
+
+Due date.
+
+Project status.
+
+Project priority.
+
+Project members.
+
+Project category.
+
+Project Statuses
+
+Support:
+
+Not Started.
+
+Planning.
+
+In Progress.
+
+On Hold.
+
+Completed.
+
+Cancelled.
+
+Project Details Page
+
+Every project should have its own dedicated workspace.
+
+Include:
+
+Project overview.
+
+Project description.
+
+Project members.
+
+Project progress.
+
+Task statistics.
+
+Project deadline.
+
+Recent activities.
+
+Project files.
+
+Project discussions.
+
+Project Actions
+
+Users should be able to:
+
+Create projects.
+
+Edit projects.
+
+Duplicate projects.
+
+Archive projects.
+
+Delete projects.
+
+Restore archived projects.
+
+Add and remove project members.
+
+Change project status.
+
+Update project deadlines.
+
+Track project completion.
+
+8. KANBAN BOARD SYSTEM
+
+This is one of the most important features of Trellas.
+
+Create a powerful, interactive Kanban board inspired by Trello.
+
+Each project should have a board containing customizable task columns.
+
+Default Columns
+
+Backlog.
+
+To Do.
+
+In Progress.
+
+In Review.
+
+Completed.
+
+Kanban Functionality
+
+Users must be able to:
+
+Create new columns.
+
+Rename columns.
+
+Delete columns.
+
+Reorder columns.
+
+Create tasks within columns.
+
+Drag and drop tasks between columns.
+
+Reorder tasks within columns.
+
+Edit tasks directly.
+
+Open detailed task views.
+
+Filter tasks.
+
+Search tasks.
+
+Assign tasks to team members.
+
+Set task priorities.
+
+Set deadlines.
+
+Task Cards
+
+Each task card should display:
+
+Task title.
+
+Short description.
+
+Priority indicator.
+
+Due date.
+
+Assigned member avatars.
+
+Comment count.
+
+Attachment indicator.
+
+Checklist completion indicator.
+
+Labels or tags.
+
+Provide a visually attractive Kanban board with smooth drag-and-drop interactions.
+
+Changes to task positions and statuses must be saved automatically.
+
+9. TASK MANAGEMENT SYSTEM
+
+Build a comprehensive task management system.
+
+Create Task
+
+Allow users to create tasks with:
+
+Task title.
+
+Task description.
+
+Project.
+
+Board column.
+
+Assigned user.
+
+Multiple collaborators.
+
+Priority.
+
+Status.
+
+Start date.
+
+Due date.
+
+Labels.
+
+Estimated time.
+
+Task type.
+
+Parent task.
+
+Subtasks.
+
+Task Priorities
+
+Support:
+
+Low.
+
+Medium.
+
+High.
+
+Urgent.
+
+Use appropriate visual indicators for each priority.
+
+Task Statuses
+
+Support:
+
+Backlog.
+
+To Do.
+
+In Progress.
+
+In Review.
+
+Completed.
+
+Task Details Modal or Side Panel
+
+When a task is opened, display a detailed task interface containing:
+
+Task title and description.
+
+Status selector.
+
+Priority selector.
+
+Assignee.
+
+Collaborators.
+
+Start date and due date.
+
+Labels.
+
+Subtasks.
+
+Checklists.
+
+Attachments.
+
+Comments.
+
+Activity history.
+
+Time tracking.
+
+Task dependencies.
+
+Allow users to edit task details without leaving the current project view.
+
+Subtasks and Checklists
+
+Allow users to:
+
+Create subtasks.
+
+Assign subtasks.
+
+Set individual deadlines.
+
+Mark subtasks as completed.
+
+Track checklist progress.
+
+Display completion percentages for checklists.
+
+Task Dependencies
+
+Support relationships between tasks, such as:
+
+Blocking.
+
+Blocked by.
+
+Related to.
+
+Clearly indicate dependencies to help teams understand task sequences.
+
+10. MULTIPLE PROJECT VIEWS
+
+Users should be able to view the same project through different layouts.
+
+A. Board View
+
+A Kanban board with drag-and-drop functionality.
+
+B. List View
+
+Display tasks in a structured table.
+
+Include columns for:
+
+Task name.
+
+Status.
+
+Priority.
+
+Assignee.
+
+Due date.
+
+Project.
+
+Labels.
+
+Allow sorting, filtering, and searching.
+
+C. Calendar View
+
+Display tasks according to their start dates and deadlines.
+
+Include:
+
+Monthly view.
+
+Weekly view.
+
+Daily view.
+
+Allow users to click a date to create a task.
+
+D. Timeline View
+
+Create a Gantt-style project timeline.
+
+Display:
+
+Task start dates.
+
+Task end dates.
+
+Task durations.
+
+Dependencies.
+
+Project milestones.
+
+Progress indicators.
+
+Allow users to adjust task dates where supported.
+
+E. Overview View
+
+Provide a summary of the project, including progress, members, deadlines, tasks, and activities.
+
+Users should be able to switch between these views without losing project information.
+
+11. CALENDAR AND SCHEDULING
+
+Create a centralized calendar for managing project schedules and deadlines.
+
+Include:
+
+Task deadlines.
+
+Project milestones.
+
+Upcoming activities.
+
+Team schedules.
+
+Personal tasks.
+
+Features:
+
+Monthly calendar.
+
+Weekly calendar.
+
+Daily calendar.
+
+Create task from calendar.
+
+Edit task dates.
+
+Filter by project.
+
+Filter by assignee.
+
+Navigate between dates.
+
+Clearly distinguish overdue, upcoming, and completed tasks.
+
+12. TEAM COLLABORATION
+
+Create a collaborative environment where workspace members can work together.
+
+Team Management
+
+Allow workspace administrators to:
+
+Invite team members.
+
+Remove team members.
+
+Assign roles.
+
+Update member permissions.
+
+View team activity.
+
+View individual workloads.
+
+Team Roles
+
+Support:
+
+Workspace Owner.
+
+Administrator.
+
+Project Manager.
+
+Member.
+
+Guest.
+
+Implement appropriate permissions for each role.
+
+Team Member Profiles
+
+Display:
+
+Profile picture.
+
+Full name.
+
+Job title.
+
+Assigned projects.
+
+Assigned tasks.
+
+Completed tasks.
+
+Current workload.
+
+13. COMMENTS AND DISCUSSIONS
+
+Enable communication within individual tasks and projects.
+
+Task Comments
+
+Users should be able to:
+
+Add comments.
+
+Edit their comments.
+
+Delete their comments.
+
+Reply to comments.
+
+Mention team members using @mentions.
+
+Attach files to comments.
+
+Display the author, profile picture, and timestamp for each comment.
+
+Project Discussions
+
+Provide a dedicated discussion area for project-related conversations.
+
+Maintain an organized activity history.
+
+14. NOTIFICATIONS AND INBOX
+
+Create a centralized notification system.
+
+Users should receive notifications for:
+
+New task assignments.
+
+Task mentions.
+
+New comments.
+
+Upcoming deadlines.
+
+Overdue tasks.
+
+Project invitations.
+
+Workspace invitations.
+
+Task status changes.
+
+Project updates.
+
+Notification Interface
+
+Include:
+
+Notification bell.
+
+Unread notification count.
+
+Notification dropdown.
+
+Full notifications page.
+
+Mark as read.
+
+Mark all as read.
+
+Delete notifications.
+
+Notification preferences.
+
+Inbox
+
+Create an inbox where users can see updates requiring their attention.
+
+Allow users to filter notifications by category and status.
+
+15. FILE AND ATTACHMENT MANAGEMENT
+
+Allow users to upload and manage files associated with projects and tasks.
+
+Support common file formats:
+
+PDF.
+
+DOC and DOCX.
+
+XLS and XLSX.
+
+PPT and PPTX.
+
+PNG.
+
+JPG and JPEG.
+
+SVG.
+
+ZIP.
+
+File Management
+
+Users should be able to:
+
+Upload files.
+
+Preview supported files.
+
+Download attachments.
+
+Rename files.
+
+Delete files.
+
+View file details.
+
+Attach files to tasks and projects.
+
+Enforce appropriate file size and file type restrictions.
+
+16. TIME TRACKING
+
+Implement a task time-tracking system.
+
+Users should be able to:
+
+Start a timer.
+
+Pause a timer.
+
+Stop a timer.
+
+Record time manually.
+
+View time spent on individual tasks.
+
+View time spent on projects.
+
+Review personal time logs.
+
+Display estimated time compared with actual time spent.
+
+17. REPORTS AND ANALYTICS
+
+Create a professional reporting dashboard.
+
+Project Reports
+
+Display:
+
+Total projects.
+
+Active projects.
+
+Completed projects.
+
+Delayed projects.
+
+Project completion rates.
+
+Task Reports
+
+Display:
+
+Total tasks.
+
+Completed tasks.
+
+Pending tasks.
+
+Overdue tasks.
+
+Tasks by priority.
+
+Tasks by status.
+
+Team Performance
+
+Display:
+
+Tasks assigned per member.
+
+Tasks completed per member.
+
+Outstanding tasks.
+
+Workload distribution.
+
+Individual productivity.
+
+Charts
+
+Use clear and interactive charts, including:
+
+Bar charts.
+
+Line charts.
+
+Pie charts.
+
+Donut charts.
+
+Progress charts.
+
+Include date filters and project filters.
+
+Allow reports to be exported as CSV or PDF where supported.
+
+18. PROJECT TEMPLATES
+
+Create reusable project templates.
+
+Include sample templates such as:
+
+Website Development.
+
+Software Development.
+
+Marketing Campaign.
+
+Business Operations.
+
+Product Launch.
+
+Event Planning.
+
+Content Calendar.
+
+Personal Productivity.
+
+Users should be able to:
+
+Browse templates.
+
+Preview templates.
+
+Create projects from templates.
+
+Customize templates.
+
+Save existing projects as templates.
+
+19. SEARCH, FILTERING, AND SORTING
+
+Implement a powerful global search feature.
+
+Users should be able to search for:
+
+Projects.
+
+Tasks.
+
+Team members.
+
+Comments.
+
+Files.
+
+Workspaces.
+
+Filtering
+
+Allow users to filter tasks by:
+
+Status.
+
+Priority.
+
+Assignee.
+
+Project.
+
+Due date.
+
+Labels.
+
+Completion status.
+
+Sorting
+
+Support sorting by:
+
+Recently created.
+
+Recently updated.
+
+Due date.
+
+Priority.
+
+Task name.
+
+Status.
+
+Provide a clean and intuitive search experience.
+
+20. SETTINGS AND PREFERENCES
+
+Create a comprehensive settings section.
+
+Profile Settings
+
+Update profile picture.
+
+Edit full name.
+
+Change email.
+
+Update job title.
+
+Edit biography.
+
+Account Settings
+
+Change password.
+
+Manage sessions.
+
+Account preferences.
+
+Delete account.
+
+Workspace Settings
+
+Workspace name.
+
+Workspace description.
+
+Workspace branding.
+
+Member management.
+
+Permissions.
+
+Workspace deletion.
+
+Notification Settings
+
+Allow users to configure which notifications they receive.
+
+Appearance Settings
+
+Support:
+
+Light mode.
+
+Dark mode.
+
+System default.
+
+Language and Regional Settings
+
+Include language, time zone, date format, and time format preferences.
+
+21. USER EXPERIENCE AND PRODUCTIVITY FEATURES
+
+Implement the following additional productivity features:
+
+Quick Create
+
+Provide a global quick-create button for creating:
+
+Projects.
+
+Tasks.
+
+Workspaces.
+
+Calendar events.
+
+Keyboard Shortcuts
+
+Support useful shortcuts for navigation, search, and task creation.
+
+Favorites and Recent Items
+
+Allow users to:
+
+Pin favorite projects.
+
+Save frequently accessed pages.
+
+View recently accessed projects.
+
+Quickly return to recent tasks.
+
+Bulk Actions
+
+Allow users to select multiple tasks and:
+
+Change status.
+
+Change priority.
+
+Assign members.
+
+Change deadlines.
+
+Move tasks.
+
+Archive tasks.
+
+Delete tasks.
+
+Undo and Confirmation
+
+Provide appropriate confirmation dialogs for destructive actions and undo options where practical.
+
+22. DATABASE ARCHITECTURE AND DATA RELATIONSHIPS
+
+Design a scalable relational database suitable for a multi-tenant SaaS application.
+
+The database should support the following entities:
+
+Users.
+
+User Profiles.
+
+Workspaces.
+
+Workspace Members.
+
+Workspace Invitations.
+
+Projects.
+
+Project Members.
+
+Project Templates.
+
+Boards.
+
+Board Columns.
+
+Tasks.
+
+Subtasks.
+
+Task Assignees.
+
+Task Labels.
+
+Comments.
+
+Comment Reactions.
+
+Attachments.
+
+Checklists.
+
+Checklist Items.
+
+Task Dependencies.
+
+Notifications.
+
+Activity Logs.
+
+Time Entries.
+
+Project Milestones.
+
+User Preferences.
+
+Database Requirements
+
+Establish appropriate primary keys.
+
+Establish foreign key relationships.
+
+Implement appropriate indexes.
+
+Prevent orphaned records.
+
+Use timestamps for record creation and updates.
+
+Support soft deletion where appropriate.
+
+Maintain workspace-level data isolation.
+
+Ensure users can only access resources they are authorized to access.
+
+Use a secure and scalable backend architecture.
+
+If Supabase is used, implement:
+
+Supabase Authentication.
+
+PostgreSQL database.
+
+Row Level Security (RLS).
+
+Supabase Storage.
+
+Secure database policies.
+
+Proper user and workspace relationships.
+
+Never expose secret keys or privileged credentials in frontend code.
+
+23. SECURITY AND PERMISSIONS
+
+Security must be implemented throughout the application.
+
+Include:
+
+Secure authentication.
+
+Authorization checks.
+
+Role-based access control.
+
+Workspace data isolation.
+
+Project-level permissions.
+
+Input validation.
+
+File upload validation.
+
+Protection against unauthorized data access.
+
+Secure session handling.
+
+Database security policies.
+
+Do not rely solely on frontend checks for security.
+
+All sensitive operations must be validated by the backend.
+
+24. RESPONSIVENESS AND MOBILE EXPERIENCE
+
+The entire application must be fully responsive.
+
+Desktop
+
+Provide the complete workspace experience with the sidebar, dashboard, boards, tables, and analytics.
+
+Tablet
+
+Optimize navigation, board layouts, cards, and panels for medium-sized screens.
+
+Mobile
+
+Create an excellent mobile experience with:
+
+Mobile-friendly navigation.
+
+Collapsible menus.
+
+Touch-friendly controls.
+
+Responsive task cards.
+
+Easy task creation.
+
+Mobile task details.
+
+Responsive calendar.
+
+Accessible project information.
+
+Ensure there is no unwanted horizontal overflow.
+
+25. PERFORMANCE AND CODE QUALITY
+
+Develop the application using clean, maintainable, scalable, and reusable code.
+
+Requirements:
+
+Component-based architecture.
+
+Reusable UI components.
+
+Organized folder structure.
+
+Clear naming conventions.
+
+Type safety where supported.
+
+Efficient database queries.
+
+Optimized image assets.
+
+Lazy loading where appropriate.
+
+Efficient state management.
+
+Proper error handling.
+
+Loading indicators.
+
+Skeleton loaders.
+
+Empty states.
+
+Form validation.
+
+Responsive layouts.
+
+Avoid unnecessary dependencies and duplicated code.
+
+26. DEMO DATA AND INITIAL EXPERIENCE
+
+Populate the application with realistic sample data to demonstrate how the platform works.
+
+Include:
+
+Sample workspaces.
+
+Sample projects.
+
+Sample team members.
+
+Sample Kanban boards.
+
+Sample tasks.
+
+Sample comments.
+
+Sample notifications.
+
+Sample calendar activities.
+
+Sample reports.
+
+Use realistic project names such as:
+
+Website Redesign.
+
+Mobile Application Development.
+
+Marketing Campaign.
+
+Product Launch.
+
+Business Operations.
+
+The demo data should make the application feel active and complete immediately after the initial setup.
+
+Clearly distinguish demo data from actual user-created information.
+
+27. APPLICATION PAGES AND ROUTES
+
+Create the following pages and corresponding navigation routes:
+
+Public Pages
+
+Landing Page.
+
+Login.
+
+Registration.
+
+Forgot Password.
+
+Reset Password.
+
+Email Verification.
+
+Authenticated Application
+
+Main Dashboard.
+
+My Tasks.
+
+Inbox.
+
+Projects Overview.
+
+Project Details.
+
+Project Board.
+
+Project List.
+
+Project Calendar.
+
+Project Timeline.
+
+Workspace Management.
+
+Team Members.
+
+Member Profile.
+
+Reports and Analytics.
+
+Files.
+
+Templates.
+
+Notifications.
+
+User Profile.
+
+Account Settings.
+
+Workspace Settings.
+
+Trash and Archived Items.
+
+Each page must have a clear purpose and consistent navigation.
+
+28. LANDING PAGE
+
+Create a professional SaaS marketing landing page for Trellas.
+
+Include:
+
+Navigation bar.
+
+Hero section.
+
+Main headline and supporting description.
+
+Sign Up and Get Started buttons.
+
+Product interface preview.
+
+Features overview.
+
+Project management capabilities.
+
+Team collaboration section.
+
+Productivity benefits.
+
+How It Works section.
+
+Pricing section.
+
+Frequently Asked Questions.
+
+Footer.
+
+Suggested hero headline:
+
+"Plan Better. Work Smarter. Achieve More."
+
+Supporting text:
+
+"Bring your projects, tasks, and team collaboration together in one powerful workspace. Stay organized, track progress, and accomplish more with Trellas."
+
+Make the landing page visually compelling and conversion-focused.
+
+29. PRICING AND SUBSCRIPTION STRUCTURE
+
+Prepare a flexible subscription architecture.
+
+Suggested plans:
+
+Free
+
+Individual workspace.
+
+Basic project management.
+
+Limited projects.
+
+Basic Kanban boards.
+
+Limited collaboration.
+
+Pro
+
+More projects.
+
+Advanced task management.
+
+Multiple views.
+
+Enhanced reporting.
+
+Increased file storage.
+
+Additional collaboration features.
+
+Business
+
+Advanced team management.
+
+Multiple workspaces.
+
+Advanced permissions.
+
+Detailed analytics.
+
+Higher storage limits.
+
+Priority support.
+
+Enterprise
+
+Custom workspace limits.
+
+Advanced security.
+
+Organization-wide management.
+
+Custom permissions.
+
+Dedicated support.
+
+Design the pricing interface, but do not claim payment functionality is operational unless payment processing has actually been integrated and tested.
+
+30. FUNCTIONALITY REQUIREMENTS
+
+This must be a functional application, not merely a visual prototype.
+
+Every interactive element must work correctly.
+
+Ensure that:
+
+Buttons perform their intended actions.
+
+Navigation links lead to the correct pages.
+
+Forms accept and validate user input.
+
+Projects can be created, edited, and deleted.
+
+Tasks can be created, edited, assigned, and completed.
+
+Kanban cards support drag and drop.
+
+Board columns can be customized.
+
+Comments can be added and displayed.
+
+Notifications update correctly.
+
+Search returns relevant results.
+
+Filters and sorting work.
+
+Calendar events display correctly.
+
+User preferences persist.
+
+Workspace permissions are enforced.
+
+Uploaded files are handled correctly.
+
+Dashboard statistics reflect actual data.
+
+Implement proper loading, success, empty, and error states.
+
+Do not include decorative buttons or non-functional features that appear to work but do nothing.
+
+31. TESTING AND QUALITY ASSURANCE
+
+Before considering the application complete, thoroughly test the entire system.
+
+Functional Testing
+
+Test:
+
+Registration and login.
+
+Authentication and logout.
+
+Workspace creation.
+
+Workspace switching.
+
+Project creation.
+
+Task creation.
+
+Task assignment.
+
+Drag-and-drop functionality.
+
+Comments.
+
+Notifications.
+
+File uploads.
+
+Calendar operations.
+
+Search and filtering.
+
+User settings.
+
+Permissions.
+
+Technical Testing
+
+Check for:
+
+Broken routes.
+
+Missing components.
+
+Import errors.
+
+TypeScript errors.
+
+Console errors.
+
+Database errors.
+
+Failed network requests.
+
+Responsive layout problems.
+
+Broken images.
+
+Invalid form submissions.
+
+Security vulnerabilities.
+
+Ensure all important user workflows work from beginning to end.
+
+32. DEVELOPMENT APPROACH AND IMPLEMENTATION INSTRUCTIONS
+
+Develop Trellas systematically.
+
+Do not attempt to create a collection of disconnected screens.
+
+The entire application must function as one integrated product.
+
+Follow this implementation order:
+
+Phase 1: Foundation
+
+Establish project architecture.
+
+Set up the design system.
+
+Create the main layout.
+
+Build navigation.
+
+Implement authentication.
+
+Phase 2: Core Workspace
+
+Workspace management.
+
+Dashboard.
+
+Project management.
+
+Team management.
+
+Phase 3: Task Management
+
+Task creation.
+
+Kanban boards.
+
+Drag and drop.
+
+Task details.
+
+Subtasks.
+
+Comments.
+
+Phase 4: Project Views
+
+List view.
+
+Calendar view.
+
+Timeline view.
+
+Project overview.
+
+Phase 5: Collaboration
+
+Notifications.
+
+Inbox.
+
+File attachments.
+
+Activity history.
+
+Time tracking.
+
+Phase 6: Advanced Features
+
+Reports and analytics.
+
+Templates.
+
+Search and filtering.
+
+Bulk actions.
+
+User preferences.
+
+Phase 7: Finalization
+
+Responsive optimization.
+
+Security checks.
+
+Performance optimization.
+
+Functional testing.
+
+Bug fixing.
+
+33. IMPORTANT DEVELOPMENT RULES
+
+Build a complete, cohesive SaaS application, not just a dashboard mockup.
+
+Maintain a consistent design system across all pages.
+
+Use reusable components wherever practical.
+
+Ensure that all modules are properly connected.
+
+Do not create duplicate or unnecessary pages.
+
+Do not leave unfinished sections or placeholder buttons.
+
+Do not use fake functionality to simulate completed backend operations.
+
+Ensure that all data relationships work correctly.
+
+Implement appropriate permissions for users and workspace members.
+
+Make the application responsive across desktop, tablet, and mobile.
+
+Use realistic sample data to demonstrate the application.
+
+Prioritize simplicity, usability, speed, and reliability.
+
+Avoid unnecessary complexity in the interface.
+
+Ensure the application is easy to maintain and extend.
+
+Do not compromise functionality for visual appearance or visual quality for functionality.
+
+34. FINAL EXPECTATION
+
+The final result should be a polished, professional, modern, and fully functional project management SaaS application called Trellas.
+
+It should combine the simplicity of Trello, the clean interface of Linear, and the comprehensive project management capabilities of Asana.
+
+Users should be able to manage their entire workflow from one centralized platform, from creating a workspace and organizing projects to assigning tasks, collaborating with team members, monitoring deadlines, and tracking productivity.
+
+The application should feel like a real commercial SaaS product that is ready for further development, deployment, and eventual public release.
+
+Final instruction: Prioritize a beautiful user experience, reliable functionality, clean architecture, secure data management, and seamless integration between every feature. Do not stop after creating the dashboard. Complete the entire application systematically and verify that all implemented features work as intended.
